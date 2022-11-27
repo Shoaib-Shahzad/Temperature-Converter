@@ -1,0 +1,60 @@
+body{
+    padding: 50px 100px;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    background-color: rgb(29, 250, 220);
+    padding: 50px;
+}
+.inputdiv{
+    display: inline-block;
+}
+.inp{
+    padding: 6px 12px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+}
+label{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (min-width: 767px) and (max-width:1023px){
+    .inp{
+        padding: 0px 10px;
+        margin: 8px;
+        font-size: 23px;
+        font-weight: bold;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 556px) and (max-width:766px){
+    .inp{
+        padding: 0px 7px;
+        margin: 7px;
+        font-size: 10px;
+        font-weight: bold;
+        width: 200px;
+    }
+    label{
+        font-size: 18px;
+       
+    }
+}
+@media screen and (min-width: 360px) and (max-width:555px){
+    .inp{
+        padding: 0px 5px;
+        margin: 7px;
+        font-size: 10px;
+        font-weight: bold;
+        width: 180px;
+    }
+    label{
+        font-size: 16px;
+       
+    }
+}
